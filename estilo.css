@@ -5,3 +5,30 @@ html,body{height: 100%;}
 body{
      background-image: linear-gradient(180deg,rgb(0, 0, 0), rgb(34, 35, 65));
 }
+/*
+.header{
+    background-color: aqua;
+    padding-inline:32px;
+    height: 8vh;
+}
+a{
+    text-decoration:none;
+
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+
+}
+.lista-nav{
+    display:flex;
+    gap: 32px;
+    color: #fff;
+    list-style: none;
+}
+.lista-nav>li>a{
+    color:white;
+} */
