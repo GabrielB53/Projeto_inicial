@@ -5,15 +5,13 @@ html,body{height: 100%;}
 body{
      background-image: linear-gradient(180deg,rgb(0, 0, 0), rgb(34, 35, 65));
 }
-/*
+a{
+    text-decoration: none;
+}
 .header{
     background-color: aqua;
     padding-inline:32px;
     height: 8vh;
-}
-a{
-    text-decoration:none;
-
 }
 .nav{
     display:flex;
@@ -29,6 +27,6 @@ a{
     color: #fff;
     list-style: none;
 }
-.lista-nav>li>a{
-    color:white;
-} */
+.caixaForm{
+    
+}
