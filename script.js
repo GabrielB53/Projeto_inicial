@@ -34,5 +34,27 @@ function verificar(){
         return false;
     }
     return true 
-
+}
+function verificar2(){
+  let user = document.getElementById("usuario").value;
+  let senha = document.getElementById("senha").value;
+  while(user == ""){
+      window.alert("Digite seu RM");
+      return false;
+  } 
+  while(user.indexOf("@")==-1){
+      window.alert("Email incorreto");
+      document.getElementById("usuario").focus();
+      document.getElementById("usuario").value="";
+      return false;
+  }
+  while(senha == ""){
+      window.alert("DIGITA A SENHA");
+      return false;
+  }
+  while(senha != senha){
+    window.alert("As senhas tem que ser iguais");
+    return false;
+}
+  return true 
 }
