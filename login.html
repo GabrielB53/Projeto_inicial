@@ -47,7 +47,7 @@
                   <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                       <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item mx-2">
                         <a class="nav-link active" href="login.html">login</a>
@@ -69,27 +69,28 @@
       </header>
        <!-- Fim da navbar -->
     <main>
-      <div class="separadorLogCad">
+      <div class="caixaLogCad">
         <img src="aia.jpg" class="imagensLogCad">
+        <div class="caixa2LogCad">
         <form class="caixaForm" action="Index.html" onsubmit="return verificar()">
             <br />
-            <h1>Login</h1>
-            <br />
-            <div id="registro">
+            <h1>Bem-vindo de volta!</h1>
+            <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastra-se!</a></p>
+            
             <label>Usuário</label><br />
-            <input type="text" size="30" id="usuario" class="bordaslog"/> <br /> <br />
+            <input type="text" size="45" id="usuario" class="bordaslog"/> <br /> <br />
             <label>Senha</label> <br />
-            <input type="text" id="senha" size="30" maxlength="20"/> <br /> 
+            <input type="text" id="senha" size="45" maxlength="20"/> <br /> 
             <a href="#">Esqueceu a senha?</a> 
-            </div>
-            <div id="bots">
+           
+            <div>
             <button type="subtmit" id="btnsubmit">Entrar</button>
             <button type="button" id="btnsubmit" onclick="mostrarSenha()">Mostrar senha</button>
             </div>
-            <a href="cadastro.html">Não registrado? <b>Cadastro</b></a>
             <br />
             <br />
            </form>
+          </div>
         </div>
     </main>
     <footer></footer>
