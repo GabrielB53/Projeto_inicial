@@ -69,27 +69,27 @@
       </header>
        <!-- Fim da navbar -->
     <main>
-        <img/> 
+      <div class="caixaLogCad">
+        <img src="aia.jpg" class="imagensLogCad">
+        <div class="caixa2LogCad">
         <form class="caixaForm" action="Index.html" onsubmit="return verificar2()">
-            <br />
-            <h1>Login</h1>
-            <br />
-            <div id="registro">
+            <h1>Bem-vindo de volta!</h1>
+            <p>Já tem uma conta? <a href="login.html">Logar!</a></p>
+            
             <label>Usuário</label><br />
-            <input type="text" size="30" id="usuario" class="bordaslog"/> <br />
+            <input type="text" size="45" id="usuario" class="bordaslog"/> <br /> <br />
             <label>Senha</label> <br />
-            <input type="text" id="senha" size="30" maxlength="20"/> <br /> 
+            <input type="text" id="senha" size="45" maxlength="20"/> <br /> <br />
             <label>Confime sua senha</label> <br/>
             <input type="text" id="confirmarSenha" size="30" maxlength="20"> </br>
-            </div>
-            <div id="bots">
+            <br />
+            <div>
             <button type="subtmit" id="btnsubmit">Entrar</button>
             <button type="button" id="btnsubmit" onclick="mostrarSenha2()">Mostrar senha</button>
             </div>
-            <a href="cadastro.html">Não registrado? <b>Cadastro</b></a>
-            <br />
-            <br />
            </form>
+          </div>
+        </div>
     </main>
     <footer></footer>
     <script src="script.js"></script>
