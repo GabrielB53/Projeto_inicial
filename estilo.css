@@ -75,6 +75,27 @@ a{
     justify-content: center;
     color: #ffffff;
 }
+#botaosubmit{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:9px;
+    padding-bottom:9px;
+    background-color:#2b2dc5;
+    font-size:15px;
+    border:none;
+    color:#ffffff;
+    font-family: sans-serif;
+    border-radius:10px;
+    cursor:pointer;
+ 
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+#botaosubmit:hover{
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+}
 
 /*  Lembrar de usar =>>  filter: blur(8px);
     -webkit-filter: blur(8px);
