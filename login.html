@@ -73,19 +73,19 @@
         <img src="aia.jpg" class="imagensLogCad">
         <div class="caixa2LogCad">
         <form class="caixaForm" action="Index.html" onsubmit="return verificar()">
-    
-            <h1>Bem-vindo de volta!</h1>
+          <div class="tituloLogin">
+            <h1 >Bem-vindo de volta!</h1>
             <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastra-se!</a></p>
-            
-            <label>Usuário</label><br />
+          </div>
+            <label class="textoLogCad">Usuário</label><br />
             <input type="text" size="45" id="usuario" class="bordaslog"/> <br /> <br />
             <label>Senha</label> <br />
             <input type="text" id="senha" size="45" maxlength="20"/> <br /> 
             <a href="#">Esqueceu a senha?</a> 
             <br /> <br />
-            <div>
-            <button type="subtmit" id="botaosubmit">Entrar</button>
-            <button type="button" id="botaosubmit" onclick="mostrarSenha()">Mostrar senha</button>
+            <div class="botoesSubmit">
+            <button type="subtmit" id="botaoSubmit">Entrar</button>
+            <button type="button" id="botaoSubmit" onclick="mostrarSenha()">Mostrar senha</button>
             </div>
            </form>
           </div>
@@ -95,4 +95,4 @@
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-</html>
+</hdtml>

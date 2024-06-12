@@ -75,7 +75,7 @@ a{
     justify-content: center;
     color: #ffffff;
 }
-#botaosubmit{
+#botaoSubmit{
     padding-left:30px;
     padding-right:30px;
     padding-top:9px;
@@ -110,10 +110,34 @@ a{
         margin-left: 40px;
         margin-right: 40px;
     }
-}
-@media(max-width:801px){
+    #senha{
+        width: 80%;
+    }
+    #usuario{
+        width:80%;
+       
+    }
     .imagensLogCad{
         display:none;
+    }
+}
+@media(max-width:701px){
+    #usuario{
+ 
+        margin-left:10%;
+    }
+    .tituloLogin{
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .botoesSubmit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #botaoSubmit{
+        margin-bottom:12px
     }
 }
 
